@@ -45,7 +45,7 @@ info = now + "\n\n" + info
 print(info)
 
 #텔레그램.
-to = "5273963232:AAEUHVqF9C4U63QXe9GmYBGuwW4x1emkHFg"
+to = "~~"#
 bot = telegram.Bot(token = to)
 
 #for i in bot.getUpdates():
@@ -53,16 +53,16 @@ bot = telegram.Bot(token = to)
 
 bot.send_message(5160104348, info)
 
-subprocess.run("C:/Users/Q/AppData/Roaming/Telegram Desktop/Telegram.exe", shell=True)
+subprocess.run("C:/Users/", shell=True) # 
 
 '''
-        to = "5273963232:AAEUHVqF9C4U63QXe9GmYBGuwW4x1emkHFg"
+        to = ""##
         bot = telegram.Bot(token = to)
 
         #for i in bot.getUpdates():
         #    print(i.message)
 
-        bot.send_message(5160104348, info)
+        bot.send_message(5160104348, info) ##
 
     print("\n\n")
 
